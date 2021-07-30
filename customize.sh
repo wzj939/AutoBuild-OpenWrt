@@ -32,10 +32,10 @@ git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilt
 #sed -i 's/KERNEL_PATCHVER:=5.10/KERNEL_PATCHVER:=5.4/g' target/linux/x86/Makefile
 
 # Frpc site
-sed -i "s/option enabled '0'/option enabled '1'/g" package/lean/luci-app-frpc/root/etc/config/frp
-sed -i 's/yourdomain.com/ol301a.venseco.cf/g' package/lean/luci-app-frpc/root/etc/config/frp
-sed -i 's/1234567/qazwsx939/g' package/lean/luci-app-frpc/root/etc/config/frp
-echo "config proxy
+#sed -i "s/option enabled '0'/option enabled '1'/g" package/lean/luci-app-frpc/root/etc/config/frp
+#sed -i 's/yourdomain.com/ol301a.venseco.cf/g' package/lean/luci-app-frpc/root/etc/config/frp
+#sed -i 's/1234567/qazwsx939/g' package/lean/luci-app-frpc/root/etc/config/frp
+#echo "config proxy
      option enable '1'
      option type 'http'
      option domain_type 'custom_domains'
